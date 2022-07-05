@@ -1,0 +1,58 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true 
+  template: sections/about.html
+
+designation: Web Developer and Machine Learning Engineer
+
+summary: 'I am a passionate web developer with 3 years of working experience.'
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "matthewwisdom11@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/matt-wisdom"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/16442723/matthew-wisdom"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://ng.linkedin.com/in/matthew-wisdom-91a5631bb"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://web.facebook.com/matthew.wisdom.923/"
+
+- name: "Kaggle"
+  icon: "fab fa-kaggle"
+  url: "https://www.kaggle.com/matthewwisdom/"
+
+- name: "Whatsapp"
+  url: "https://wa.link/cq67zk"
+  icon: "fab fa-whatsapp"
+
+resume: ""
+
+badges:
+  - type: soft-skill-indicator
+    name: Problem Solving
+    percentage: 85
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 90
+    color: orange
+  
+  - type: soft-skill-indicator
+    name: Curiosity
+    percentage: 95
+    color: green

@@ -1,0 +1,114 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 2
+  showOnNavbar: true 
+  template: sections/projects.html
+
+buttons:
+- name: All
+  filter: "all"
+- name: Machine Learning
+  filter: "machine learning"
+- name: Web Development
+  filter: "web development"
+- name: Academic
+  filter: "academic"
+- name: Others
+  filter: "others"
+
+# your projects
+projects:
+# - name: Igala Language Translator
+#   logo: /images/sections/projects/kubernetes.png
+#   role: Owner
+#   timeline: "March 2022 - Present"
+#   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+#   summary: Translator for Igala Language.
+#   tags: ["machine learning", "torch", "spark"]
+
+- name: Radio Streamer
+  role: Owner
+  timeline: "March 2022 - Present"
+  repo: https://github.com/matt-wisdom/radio # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Dockerized application for hosting your own internett radio service.
+  tags: ["web development", "flask", "docker", "real time"]
+
+- name: Flask Messenger
+  role: Owner
+  timeline: "Dec 2021 - Present"
+  repo: https://github.com/matt-wisdom/flask-messenger
+  summary: A flask extension for building messenger bots very easily.
+  tags: ["python","bot", "messenger api", "others"]
+
+# - name: Igala POS Tagger
+#   logo: /images/projects/tr.png
+#   role: Owner
+#   timeline: "Dec 2021 - Present"
+#   repo: https://github.com/cRyp70s/file_organizer_tools
+#   summary: POS tagger for Igala Language.
+#   tags: ["python", "machine learning", "pytorch"]
+
+# - name: Ticket App
+#   logo: /images/projects/tr.png
+#   role: Owner
+#   timeline: "Dec 2021 - Present"
+#   repo: https://github.com/cRyp70s/file_organizer_tools
+#   summary: Ticket processing app using microservices.
+#   tags: ["golang", "web development"]
+
+# - name: Chat App
+#   logo: /images/projects/tr.png
+#   role: Owner
+#   timeline: "Dec 2021 - Present"
+#   repo: https://github.com/cRyp70s/file_organizer_tools
+#   summary: Chat application.
+#   tags: ["python", "flask", "FastAPI", "real time", "web development", "microservices", "mongodb"]
+
+
+- name: File Organizer
+  logo: /images/projects/fotools.png
+  role: Owner
+  timeline: "Dec 2021 - Present"
+  repo: https://github.com/cRyp70s/file_organizer_tools
+  summary: An extensible and powerful command line utility for organizing and operating on files.
+  tags: ["others","python","file-organizer"]
+
+- name: Nigerian Language Classifier
+  logo: /images/projects/tr.png
+  role: Owner
+  timeline: "Dec 2021 - Present"
+  url: https://naijadetect.herokuapp.com
+  summary: Detect and classify various Nigerian Languages in text.
+  tags: ["python", "machine learning", "sklearn", "nlp"]
+
+- name: Pastemaster
+  logo: /images/projects/pm.png
+  role: Owner
+  timeline: "Jun 2018 - Present"
+  repo: https://github.com/matt-wisdom/pastemaster
+  url: "https://pastemaster.herokuapp.com"
+  summary: A pastebin site for anonymously posting and saving text.
+  tags: ["web development", "flask"]
+
+- name: Naija Segmenter
+  role: Owner
+  repo: https://github.com/matt-wisdom/naija-segmenter
+  url: https://naijasegmenter.herokuapp.com/
+  summary: A tool for segmenting multilingual text by languages (mostly Nigerian Languages).
+  tags: ["machine learning", "gradio", "nlp"]
+
+- name: PQHaven
+  role: Owner
+  url: https://pqhaven.pythonanywhere.com/
+  summary: Site where ATBU engineering students can take past question based tests.
+  tags: ["web development", "flask"]
+
+- name: Yunik Brands and Prints
+  role: Owner
+  url: http://www.yunikbrand.com.ng/
+  summary: Website for yunik brands and prints.
+  tags: ["web development", "flask"]
