@@ -37,13 +37,6 @@ projects:
   summary: Dockerized application for hosting your own internett radio service.
   tags: ["web development", "flask", "docker", "real time"]
 
-- name: Flask Messenger
-  role: Owner
-  timeline: "Dec 2021 - Present"
-  repo: https://github.com/matt-wisdom/flask-messenger
-  summary: A flask extension for building messenger bots very easily.
-  tags: ["python","bot", "messenger api", "others"]
-
 # - name: Igala POS Tagger
 #   logo: /images/projects/tr.png
 #   role: Owner
@@ -70,7 +63,7 @@ projects:
 
 
 - name: File Organizer
-  logo: /images/projects/fotools.png
+  # logo: /images/projects/fotools.png
   role: Owner
   timeline: "Dec 2021 - Present"
   repo: https://github.com/cRyp70s/file_organizer_tools
@@ -78,7 +71,7 @@ projects:
   tags: ["others","python","file-organizer"]
 
 - name: Nigerian Language Classifier
-  logo: /images/projects/tr.png
+  # logo: /images/projects/tr.png
   role: Owner
   timeline: "Dec 2021 - Present"
   url: https://naijadetect.herokuapp.com
@@ -86,7 +79,7 @@ projects:
   tags: ["python", "machine learning", "sklearn", "nlp"]
 
 - name: Pastemaster
-  logo: /images/projects/pm.png
+  # logo: /images/projects/pm.png
   role: Owner
   timeline: "Jun 2018 - Present"
   repo: https://github.com/matt-wisdom/pastemaster
@@ -94,9 +87,16 @@ projects:
   summary: A pastebin site for anonymously posting and saving text.
   tags: ["web development", "flask"]
 
+- name: Flask Messenger
+  role: Owner
+  timeline: "Dec 2021 - Present"
+  repo: https://github.com/matt-wisdom/flask-messenger
+  summary: A flask extension for building messenger bots very easily.
+  tags: ["python","bot", "messenger api", "others"]
+
 - name: Naija Segmenter
   role: Owner
-  repo: https://github.com/matt-wisdom/naija-segmenter
+  # repo: https://github.com/matt-wisdom/naija-segmenter
   url: https://naijasegmenter.herokuapp.com/
   summary: A tool for segmenting multilingual text by languages (mostly Nigerian Languages).
   tags: ["machine learning", "gradio", "nlp"]
