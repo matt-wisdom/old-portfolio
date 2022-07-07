@@ -3,3 +3,4 @@
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/matt-wisdom/toha
+        branch=main
